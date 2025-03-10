@@ -4,12 +4,13 @@
 <template>
 
   <header>
-      <nav>
-        <a class="active"><router-link to="/caccom"> Caccom </router-link></a>
-        <a><router-link to="/empresajunior"> Empresa Júnior </router-link></a>
-        <a><router-link to="/associacaoegressos"> Associação de egressos </router-link></a>
-      </nav>
-      <a href="#" class="contact">Meu contato</a>
+    <a><router-link to="/caccom"><img src="/src/assets/logo-sem-fundo.png" alt="Logo CACCOM"> </router-link></a>
+    <nav>
+      <a class="active"><router-link to="/caccom"> Caccom </router-link></a>
+      <a><router-link to="/empresajunior"> Empresa Júnior </router-link></a>
+      <a><router-link to="/associacaoegressos"> Associação de egressos </router-link></a>
+      <a class="contact" href="#">Meu contato</a>
+    </nav>      
   </header>
 
   <main>
@@ -74,10 +75,18 @@
 
 <style scoped>
 
+  :root {
+    --red-flame: #f90404;       
+    --blush-rose: #f17c7e;      
+    --dark-crimson: #ac1414;     
+    --muted-rose: #b15c5c;       
+    --soft-silver: #c4c4c4;    
+  }
+
   main .home {
     width: 100%;
     min-height: 100vh;
-    background: rgb(241, 241, 241);
+    background-color: var(--soft-silvere);
     display: flex;
     align-items: center;
     gap:7em;
