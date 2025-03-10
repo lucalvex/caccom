@@ -5,7 +5,7 @@
 
   <header>
       <nav>
-        <a class="active"><router-link to="/"> Caccom </router-link></a>
+        <a class="active"><router-link to="/caccom"> Caccom </router-link></a>
         <a><router-link to="/empresajunior"> Empresa Júnior </router-link></a>
         <a><router-link to="/associacaoegressos"> Associação de egressos </router-link></a>
       </nav>

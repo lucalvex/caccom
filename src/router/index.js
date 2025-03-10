@@ -4,7 +4,7 @@ import EmpresaJunior from '../pages/EmpresaJunior.vue';
 import AssociacaoEgressos from '../pages/AssociacaoEgressos.vue';
 
 const routes = [
-  { path: '/', component: Caccom },      
+  { path: '/caccom', component: Caccom },      
   { path: '/empresajunior', component: EmpresaJunior },  
   { path: '/associacaoegressos', component: AssociacaoEgressos },  
 ];
